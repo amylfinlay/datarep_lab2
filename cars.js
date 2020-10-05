@@ -1,4 +1,4 @@
-class Vehicle{
+class Vehicle{ //Parent class
 
     constructor(make, model, year){
         this.make = make;
@@ -7,13 +7,13 @@ class Vehicle{
 
     }
 
-    Information(){
+    Information(){ //Logs information about the cars
         console.log(`Make: ${this.make}, Model: ${this.model}, Year: ${this.year}`);
 
     }
 }
 
-//Extends class to show number of doors 
+//Extends from the parent class to show number of doors and exisiting information
 class Cars extends Vehicle { 
     constructor(make, model, year, doors){
         super(make, model, year); //Calls information from vehicle class
