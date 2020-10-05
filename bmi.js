@@ -1,3 +1,8 @@
+/** Amy Finlay - G00360784
+ *  Lab 2 - Exercise 2
+ */
+
+
 class BMI { //A blueprint for creating projects
     constructor(height, weight) { //Starting point of the class, first method called
         this.height = height; //Arugments height and weight

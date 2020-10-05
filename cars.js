@@ -1,3 +1,7 @@
+/** Amy Finlay - G00360784
+ *  Lab 2 - Exercise 3
+ */
+
 class Vehicle{ //Parent class
 
     constructor(make, model, year){
